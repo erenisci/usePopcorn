@@ -1,4 +1,4 @@
-import PropTempWatchedData from '../modules/PropTempWatchedData';
+import { PropTempWatchedData } from '../models/PropTemp-Data';
 
 const WatchedMovies: React.FC<{ movie: PropTempWatchedData }> = ({ movie }) => {
   return (

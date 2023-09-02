@@ -1,4 +1,4 @@
-import PropTempMovieData from '../modules/PropTempMovieData';
+import { PropTempMovieData } from '../models/PropTemp-Data';
 
 import Movie from './Movie';
 

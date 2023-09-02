@@ -1,4 +1,4 @@
-import PropTempWatchedData from '../modules/PropTempWatchedData';
+import { PropTempWatchedData } from '../models/PropTemp-Data';
 
 const average = (arr: number[]): number => arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 

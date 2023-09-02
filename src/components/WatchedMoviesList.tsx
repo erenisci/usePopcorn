@@ -1,4 +1,4 @@
-import PropTempWatchedData from '../modules/PropTempWatchedData';
+import { PropTempWatchedData } from '../models/PropTemp-Data';
 
 import WatchedMovies from './WatchedMovies';
 

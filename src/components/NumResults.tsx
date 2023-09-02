@@ -1,4 +1,4 @@
-import PropTempMovieData from '../modules/PropTempMovieData';
+import { PropTempMovieData } from '../models/PropTemp-Data';
 
 const NumResults: React.FC<{ movies: PropTempMovieData[] }> = ({ movies }) => {
   return (
