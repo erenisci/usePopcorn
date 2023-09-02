@@ -1,6 +1,6 @@
 import { PropTempWatchedData } from '../models/PropTemp-Data';
 
-const average = (arr: number[]): number => arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
+const average = (arr: number[]): number => arr.reduce((acc, cur, _, arr) => acc + cur / arr.length, 0);
 
 const WatchedSummary: React.FC<{ watched: PropTempWatchedData[] }> = ({ watched }) => {
   const avgImdbRating: number = average(watched.map(movie => movie.imdbRating));
